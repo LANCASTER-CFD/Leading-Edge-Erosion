@@ -1,18 +1,16 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                           --- LEE2AERO ---                              %
-% Opensource machine learning based tool for assessing blade performance  % 
-%          impairment due to general leading edge degradation             %                      
-%                           ----------------                              %
-%                              Software by:                               %
-%        Alessio Castorrini, Andrea Ortolani, Edmondo Minisci,            %
-%                         M. Sergio Campobasso                            %
-%                                                                         %
-%                          Reference article:                             %
-% Opensource machine learning metamodels for assessing blade performance  %
-% impairment due to general leading edge degradation, Journal of Physics: % 
-% Conference Series, Vol. xxxx, no.x, ref. xxxxxx, June 2024. DOI: xxxxxxxxx.
-%                                                                         %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                           --- LEE2AERO ---                              
+ Opensource machine learning based tool for assessing blade performance   
+          impairment due to general leading edge degradation                                   
+                           ----------------                              
+                              Software by:                               
+        Alessio Castorrini, Andrea Ortolani, Edmondo Minisci,            
+                         M. Sergio Campobasso                            
+                                                                         
+                          Reference article:                             
+ Opensource machine learning metamodels for assessing blade performance  
+ impairment due to general leading edge degradation, Journal of Physics:  
+ Conference Series, Vol. xxxx, no.x, ref. xxxxxx, June 2024. DOI: xxxxxxxx.
+                                                                         
 
  This script allows the rapid generation of the lift and drag curves of 
  the NACA64(3) 618 featuring two classes of leading edge (LE) damage by 
@@ -67,4 +65,4 @@
  software, as well as deny any implied warranties.
 
                                                    v.1.0.0 - 26 April 2024 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
