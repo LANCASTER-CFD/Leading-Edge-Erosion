@@ -30,7 +30,7 @@ DESCRIPTION
 
  Following constraints should be observed: 
  50 < K < 300 (micron/m), 0.5 < Ks/K < 10 (micron/m), -2% < sl < 4%, 
- -2% < su < 4%.
+ -2% < su < 4%, su + sl > 0.3 %.
 
  The other class of damage (ID = 2) corresponds to severe damage 
  represented by chordwise grooves geometrically resolved in the underlying 
@@ -45,7 +45,7 @@ DESCRIPTION
  3) groove depth (d).
 
  Following constraints should be observed: 
- 0.05% < d < 0.75%, -2% < sl < 4%, -2% < su < 4%.
+ 0.05% < d < 0.75%, -2% < sl < 4%, -2% < su < 4%, su + sl > 0.3 %.
 
  In all cases, the chord-based Reynolds number is 9 M, and the lift and 
  drag curves are provided for angle of attack between -10 and 16 degrees. 

@@ -27,7 +27,7 @@
 %   3) groove depth per unit chord (d).
 %   
 % - Following constraints should be observed: 
-%   0.05%<d<0.75%, -2<sl<4, -2<su<4.
+%   0.05%<d<0.75%, -2<sl<4, -2<su<4, su + sl > 0.3 %.
 %
 % - The authors of the aforementioned software declare that they deny any 
 %   and all liability for any damages arising out of using the considered 
@@ -51,6 +51,9 @@ if (damage_parameters(2)<minSl || damage_parameters(2)>maxSl)
 end
 if (damage_parameters(3)<mind || damage_parameters(3)>maxd)
     error("The value provided for d/c variable is out of range of supported values, supported range is: "+mind+" % < su/l < "+mind+" %");
+end
+if (damage_parameters(1)+damage_parameters(2)<0.3)
+    error("The value provided for su/c and sl/c variable is giving a too small (<0.3%) or negative length of LEE curvilinear extension. \n Please check that su/c + sl/c > 0.3 %");
 end
 
 %% Computation

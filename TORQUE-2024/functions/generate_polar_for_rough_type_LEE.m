@@ -27,7 +27,7 @@
 %   4) equivalent sand grain roughness in micrometers per unit chord (Ks).
 %   
 % - Following constraints should be observed: 
-%   50<K<300 micron/m, 0.5<Ks/K<10, -2<sl<4, -2<su<4.
+%   50<K<300 micron/m, 0.5<Ks/K<10, -2<sl<4, -2<su<4, su + sl > 0.3 %.
 %
 % - The authors of the aforementioned software declare that they deny any 
 %   and all liability for any damages arising out of using the considered 
@@ -56,6 +56,9 @@ if (damage_parameters(3)<minK || damage_parameters(3)>maxK)
 end
 if (damage_parameters(4)<minKs_K || damage_parameters(4)>maxKs_K)
     error("The value provided for Ks/K variable is out of range of supported values, supported range is: "+minKs_K+" < su/l < "+minKs_K);
+end
+if (damage_parameters(1)+damage_parameters(2)<0.3)
+    error("The value provided for su/c and sl/c variable is giving a too small (<0.3%) or negative length of LEE curvilinear extension. \n Please check that su/c + sl/c > 0.3 %");
 end
 
 %% Computation
