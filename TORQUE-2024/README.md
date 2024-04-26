@@ -1,17 +1,16 @@
-                           --- LEE2AERO ---                              
- Opensource machine learning based tool for assessing blade performance   
-          impairment due to general leading edge degradation                                   
-                           ----------------                              
-                              Software by:                               
-        Alessio Castorrini, Andrea Ortolani, Edmondo Minisci,            
-                         M. Sergio Campobasso                            
-                                                                         
-                          Reference article:                             
- Opensource machine learning metamodels for assessing blade performance  
- impairment due to general leading edge degradation, Journal of Physics:  
- Conference Series, Vol. xxxx, no.x, ref. xxxxxx, June 2024. DOI: xxxxxxxx.
-                                                                         
+---
+ LEE2AERO
+---
+ 
+Opensource machine learning based tool for assessing blade performance impairment due to general leading edge degradation                          
 
+Software by: Alessio Castorrini, Andrea Ortolani, Edmondo Minisci, M. Sergio Campobasso 
+                                                                                               
+Reference article: Opensource machine learning metamodels for assessing blade performance impairment due to general leading edge degradation, Journal of Physics: Conference Series, Vol. xxxx, no.x, ref. xxxxxx, June 2024. DOI: xxxxxxxx.
+                                                                         
+---
+DESCRIPTION
+---
  This script allows the rapid generation of the lift and drag curves of 
  the NACA64(3) 618 featuring two classes of leading edge (LE) damage by 
  erosion. The rapid generation relies on artificial neural networks 
@@ -51,14 +50,18 @@
  In all cases, the chord-based Reynolds number is 9 M, and the lift and 
  drag curves are provided for angle of attack between -10 and 16 degrees. 
 
- ------------------------------- USAGE----------------------------------
+ ------------------------------- 
+ USAGE
+ ----------------------------------
+ 
  Look for the only 3 code sections with tag #USER.
  1) Select the LEE damage type:
  damage = 1 -> LE roughness;
  damage = 2 -> LE groove;
 
  2) Set the values of the damage parameters
- -----------------------------------------------------------------------
+
+ -----
 
  The authors of the aforementioned software declare that they deny any and 
  all liability for any damages arising out of using the considered 
