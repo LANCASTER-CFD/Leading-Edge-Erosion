@@ -63,6 +63,8 @@ close all
 % damage = 2 -> LE groove;
 %
 % 2) Set the values of the damage parameters
+%
+% 3) Choose if to plot the cl and cd curves or not
 % -----------------------------------------------------------------------
 %
 % The authors of the aforementioned software declare that they deny any and 
