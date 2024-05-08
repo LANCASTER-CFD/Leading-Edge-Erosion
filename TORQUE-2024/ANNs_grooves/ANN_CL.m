@@ -11,7 +11,18 @@
 % Opensource machine learning metamodels for assessing blade performance  %
 % impairment due to general leading edge degradation, Journal of Physics: % 
 % Conference Series, Vol. xxxx, no.x, ref. xxxxxx, June 2024. DOI: xxxxxxxxx.
-%                                                                         %
+%        
+% Copyright (C) 2024 Alessio Castorrini, Andrea Ortolani, Edmondo Minisci, Michele Sergio Campobasso.
+% These models are free software: you can redistribute it and/or modify it 
+% under the terms of the GNU General Public License as published by the 
+% Free Software Foundation, either version 3 of the License.
+% These models are distributed in the hope that they will be useful, 
+% but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+% or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+% for more details.
+% You should have received a copy of the GNU General Public License along 
+% with this program. If not, see <https://www.gnu.org/licenses/>.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [Y,Xf,Af] = ANN_CL(X,~,~)

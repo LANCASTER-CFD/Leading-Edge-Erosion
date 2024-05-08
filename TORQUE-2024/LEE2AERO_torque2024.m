@@ -67,9 +67,16 @@ close all
 % 3) Choose if to plot the cl and cd curves or not
 % -----------------------------------------------------------------------
 %
-% The authors of the aforementioned software declare that they deny any and 
-% all liability for any damages arising out of using the considered 
-% software, as well as deny any implied warranties.
+% Copyright (C) 2024 Alessio Castorrini, Andrea Ortolani, Edmondo Minisci, Michele Sergio Campobasso.
+% These models are free software: you can redistribute it and/or modify it 
+% under the terms of the GNU General Public License as published by the 
+% Free Software Foundation, either version 3 of the License.
+% These models are distributed in the hope that they will be useful, 
+% but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+% or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+% for more details.
+% You should have received a copy of the GNU General Public License along 
+% with this program. If not, see <https://www.gnu.org/licenses/>.
 %
 %                                                   v.1.0.0 - 26 April 2024 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,9 +88,9 @@ damage = 1;
 
 %% #USER: Damage values
 su = 1.5;  % - Percentage of the chord length
-sl = 0.1; % - Percentage of the chord length
+sl = 0.1;  % - Percentage of the chord length
 d  = 0.5;  % - Percentage of the chord length       (not used if damage = 2)
-K = 200;   % - micrometers/(meters of chord length) (not used if damage = 1)
+K  = 200;  % - micrometers/(meters of chord length) (not used if damage = 1)
 Ks = 1000; % - micrometers/(meters of chord length) (not used if damage = 1)
 
 %% #USER: Activate plots
